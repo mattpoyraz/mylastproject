@@ -52,10 +52,6 @@ public class SigninPageNavigation extends BasePage {
         Assert.assertFalse( signinPage.getErrorMessage().isDisplayed());
 
 
-        /*String getTitle=signinPage.getTextMessage().getText();
-        Assert.assertEquals(getTitle,"Only @na.edu emails are accepted for Office 365 authentication");
-
-         */
 
     }
 
