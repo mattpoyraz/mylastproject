@@ -51,8 +51,6 @@ public class SigninPageNavigation extends BasePage {
         //signinPage.getErrorMessage().isDisplayed();
         Assert.assertFalse( signinPage.getErrorMessage().isDisplayed());
 
-
-
     }
 
 
