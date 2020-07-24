@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.961 s <<< FAILURE! - in TestSuite
+signinpage.SigninPageNavigation.SigninPageNavigation1  Time elapsed: 15.341 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//a[@class='page-scroll btn btn-xl mr30 btn-primary'][contains(text(),'Sign-in')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ismets-MacBook.local', ip: '2607:fb90:17cd:c28:997e:a795:7013:3051%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:31)
+
