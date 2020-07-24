@@ -44,4 +44,12 @@ public class LandingPage {
     public WebElement getSearcButtonClear(){
         return searcButtonClear;
     }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    public void setDriver(WebDriver driver) {
+        this.driver = driver;
+    }
 }
