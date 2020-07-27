@@ -43,19 +43,6 @@ public class SigninPageNavigation extends BasePage {
 
         landingPage.getSignin().click();//this is must be come after windows chanced
 
-        SigninPage signinPage=new SigninPage(driver);
-        signinPage.getEmail().sendKeys(username);
-        signinPage.getPassword().sendKeys(password);
-        signinPage.getSigninButton().click();
-
-        //signinPage.getErrorMessage().isDisplayed();
-        Assert.assertFalse( signinPage.getErrorMessage().isDisplayed());
-
-
-        /*String getTitle=signinPage.getTextMessage().getText();
-        Assert.assertEquals(getTitle,"Only @na.edu emails are accepted for Office 365 authentication");
-
-         */
 
     }
 
