@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 21 14:28:59 EDT 2020</td>
+<td>Started on:</td><td>Fri Jul 24 15:14:59 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15414 ms)</td>
+<tr><td>Total time:</td><td>26 seconds (26854 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='signinpage.SigninPageNavigation.SigninPageNavigation1()'><b>SigninPageNavigation1</b><br>Test class: signinpage.SigninPageNavigation<br>Parameters: ismet@mart.com, 23234</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@class=&apos;page-scroll btn btn-xl mr30 btn-primary&apos;][contains(text(),&apos;Sign-in&apos;)]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Ismets-MacBook.local&apos;, ip: &apos;2607:fb90:17cd:c28:997e:a795:7013:3051%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageobjects.LandingPage.getSignin(LandingPage.java:30)
-	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:31)
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace94919826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace94919826'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@class=&apos;page-scroll btn btn-xl mr30 btn-primary&apos;][contains(text(),&apos;Sign-in&apos;)]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Ismets-MacBook.local&apos;, ip: &apos;2607:fb90:17cd:c28:997e:a795:7013:3051%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageobjects.LandingPage.getSignin(LandingPage.java:30)
-	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:31)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace817689537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace817689537'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,8 +119,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 </pre></div></td>
-<td>15</td>
-<td>signinpage.SigninPageNavigation@33cb5951</td></tr>
+<td>8</td>
+<td>signinpage.SigninPageNavigation@1372ed45</td></tr>
 </table><p>
 </body>
 </html>

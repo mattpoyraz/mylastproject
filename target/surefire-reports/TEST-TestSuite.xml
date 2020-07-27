@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.961" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.161" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="drivers/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/ismetpoyraz/Library/Java/JavaVirtualMachines/openjdk-14.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/surefire/surefirebooter8645326743628962806.jar /Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/surefire 2020-07-21T14-28-58_904-jvmRun1 surefire8198836597409184816tmp surefire_04612440740514330623tmp"/>
+    <property name="sun.java.command" value="/Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/surefire/surefirebooter8026662582332712943.jar /Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/surefire 2020-07-24T15-14-56_978-jvmRun1 surefire11280258639975960362tmp surefire_012405829206810640222tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/test-classes:/Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/classes:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ismetpoyraz/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ismetpoyraz/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ismetpoyraz/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ismetpoyraz/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ismetpoyraz/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ismetpoyraz/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ismetpoyraz/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ismetpoyraz/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ismetpoyraz/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ismetpoyraz/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ismetpoyraz/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/ismetpoyraz/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/ismetpoyraz/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/ismetpoyraz/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ismetpoyraz/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ismetpoyraz/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ismetpoyraz/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ismetpoyraz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/surefire/surefirebooter8645326743628962806.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ismetpoyraz/Desktop/JavaPrograms/myentireprojectofNAU/target/surefire/surefirebooter8026662582332712943.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -55,23 +55,17 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="SigninPageNavigation1" classname="signinpage.SigninPageNavigation" time="15.341">
-    <failure message="Cannot locate an element using xpath=//a[@class=&apos;page-scroll btn btn-xl mr30 btn-primary&apos;][contains(text(),&apos;Sign-in&apos;)]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Ismets-MacBook.local&apos;, ip: &apos;2607:fb90:17cd:c28:997e:a795:7013:3051%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using xpath=//a[@class='page-scroll btn btn-xl mr30 btn-primary'][contains(text(),'Sign-in')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Ismets-MacBook.local', ip: '2607:fb90:17cd:c28:997e:a795:7013:3051%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
-Driver info: driver.version: RemoteWebDriver
-	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:31)
+  <testcase name="SigninPageNavigation1" classname="signinpage.SigninPageNavigation" time="9.016">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at signinpage.SigninPageNavigation.SigninPageNavigation1(SigninPageNavigation.java:52)
 ]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 8928
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 31989
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595356141.989][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-Jul 21, 2020 2:29:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1595618105.953][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 24, 2020 3:15:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1595356155.286][SEVERE]: Unable to receive message from renderer
 ]]></system-err>
   </testcase>
 </testsuite>

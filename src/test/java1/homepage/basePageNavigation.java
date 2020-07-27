@@ -13,7 +13,7 @@ public class basePageNavigation extends BasePage {
     public void beforeClass() throws IOException {
 
         initializeDriver();
-        String Url=properties.getProperty("url");
+        String Url=properties.getProperty("url2");
         driver.get(Url);
     }
 

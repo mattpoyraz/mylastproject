@@ -6,6 +6,7 @@
       <class name="signinpage.SigninPageNavigation">
         <methods>
           <include name="SigninPageNavigation1" invocation-numbers="0"/>
+          <include name="beforeClass"/>
         </methods>
       </class> <!-- signinpage.SigninPageNavigation -->
     </classes>
