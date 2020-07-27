@@ -10,12 +10,12 @@ public class LandingPage {
 
     public WebDriver driver;
 
-    By applyNow= By.xpath("//*[@id='menu-item-654']/a");
-    By signin=By.xpath("//a[@class='page-scroll btn btn-xl mr30 btn-primary'][contains(text(),'Sign-in')]");
-    @FindBy(css =".ubermenu-search-input")
+    private By applyNow= By.xpath("//*[@id='menu-item-654']/a");
+    private By signin=By.xpath("//a[@class='page-scroll btn btn-xl mr30 btn-primary'][contains(text(),'Sign-in')]");
+    private @FindBy(css =".ubermenu-search-input")
     WebElement searcButton;
 
-    @FindBy(css =".ubermenu-search-input")
+    private @FindBy(css =".ubermenu-search-input")
     WebElement searcButtonClear;
 
 
