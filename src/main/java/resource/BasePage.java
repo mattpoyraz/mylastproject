@@ -24,24 +24,33 @@ public class BasePage {
         String browserName= properties.getProperty("browser");
         String url=properties.getProperty("url");
 
-        if(browserName.equals("chrome")){
 
-            System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
+
+
+
+        if(browserName.equals("macchrome")){
+
+            System.setProperty("webdriver.chrome.driver","drivers/mac/chromedriver");
             driver = new ChromeDriver();
-            //driver.get(url);
-
 
         }
-        else if (browserName.equals("firefox")){
+        else if (browserName.equals("macfirefox")){
 
-            System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
+            System.setProperty("webdriver.gecko.driver","drivers/mac/geckodriver 2");
             driver = new FirefoxDriver();
-            //driver.get(url);
+
 
         }
+        else if (browserName.equals("windowschrome")){
+
+            System.setProperty("webdriver.chrome.driver","drivers/windows/chromedriver.exe");
+            driver = new ChromeDriver();
+        }
+
         else{
 
-            System.out.println("something went wrong");
+            System.out.println("please go to data.properties file and make sure that you provide correct browser name" +
+                    "if youre using windows system just put windowschrome or macchrome!!");
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -11,6 +11,7 @@ public class SigninPage {
     private By email=By.cssSelector("#username");
     private By password=By.xpath("//input[@id='password']");
     private By siginButton=By.id("btnSubmitIn");
+
     private By errorAlarm=By.xpath("//div[@id='_message_signin']//div");
     private By textMessage=By.xpath("//div[@class='row']//div[2]//p");
 

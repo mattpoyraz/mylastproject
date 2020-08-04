@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+    <parameter name="url" value="foodicenter.com"/>
+    
+    <test name="Regression">
+        <parameter name="username" value="ismet@foodicenter.com"/>
+        <parameter name="password" value="8732974"/>
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="homepage.homePageNavigation"/>
+        </classes>
+    </test>
+    
+</suite>

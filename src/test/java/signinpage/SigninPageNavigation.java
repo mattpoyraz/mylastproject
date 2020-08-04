@@ -39,8 +39,6 @@ public class SigninPageNavigation extends BasePage {
 
         //driver.switchTo().window(parentWindow);
 
-
-
         landingPage.getSignin().click();//this is must be come after windows chanced
 
         SigninPage signinPage=new SigninPage(driver);
@@ -60,7 +58,7 @@ public class SigninPageNavigation extends BasePage {
     }
 
 
-    @Test()
+    @Test(enabled = false)
     public void handleSecondWayWindowsTag(String username, String password) {
 
         LandingPage landingPage=new LandingPage(driver);

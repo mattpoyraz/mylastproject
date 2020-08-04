@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="/Users/ismetpoyraz/Desktop/JavaPrograms/MyLastProjectNAUniversity/mattsecond/myentireprojectofNAU">
        <classes>
-           <class name="homepage.basePageNavigation"/>
+           <class name="homepage.homePageNavigation"/>
        </classes>
     </test>
 </suite>
